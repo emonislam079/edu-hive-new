@@ -8,7 +8,7 @@ const Blog = (props) => {
     const {name, img, description}= props.blog
     return (
         <div>
-            <Col data-aos="zoom-in" data-aos-duration="3000">
+            <Col className='shadow mb-5 bg-body rounded' data-aos="zoom-in" data-aos-duration="3000">
       <Card>
         <Card.Img variant="top" src={img} />
         <Card.Body>

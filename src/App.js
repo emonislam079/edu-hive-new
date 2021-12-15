@@ -13,6 +13,8 @@ import Faq from './Component/Faq/Faq'
 import ContactUs from './Component/ContactUs/ContactUS'
 import Instractors from './Component/Instractor/Instractors';
 import Blogs from './Component/Blogs/Blogs';
+import Login from './Component/LogIn/Login/Login';
+import Registration from './Component/LogIn/Registration/Registration';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/instructor" element={<Instractors />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/registration" element={<Registration />} />
           
         </Routes>
         <Footer></Footer>
