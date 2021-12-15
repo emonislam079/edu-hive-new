@@ -15,10 +15,12 @@ import Instractors from './Component/Instractor/Instractors';
 import Blogs from './Component/Blogs/Blogs';
 import Login from './Component/LogIn/Login/Login';
 import Registration from './Component/LogIn/Registration/Registration';
+import AuthProvider from './Contex/AuthProvider';
 
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <BrowserRouter>
         <Header></Header>
         <Routes>
@@ -36,6 +38,7 @@ function App() {
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }
