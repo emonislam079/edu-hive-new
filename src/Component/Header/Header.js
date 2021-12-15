@@ -42,10 +42,10 @@ const Header = () => {
       <Nav.Link as={HashLink} to="/login">Login</Nav.Link>
       <Nav.Link as={HashLink} to="/registration">Registration</Nav.Link>
       </>}
-      <Navbar.Text> Signed in : <a href="/login">{user?.displayName}</a>
+      <Navbar.Text> Signed in : <span className='text-primary'>{user?.displayName}</span>
         </Navbar.Text>
        
-   <Nav.Link as={HashLink} to="/apply">Apply</Nav.Link>
+   <Nav.Link as={HashLink} to="/apply"><Button variant="primary">Apply</Button></Nav.Link>
   </Navbar.Collapse>
   </Container>
 </Navbar>
