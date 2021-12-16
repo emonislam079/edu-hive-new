@@ -74,7 +74,7 @@ const Registration = () => {
                 
             </Form>}
             {isLoading && <Spinner animation="grow" variant="danger" />}
-        {user?.email && <Alert severity="success">User Created successfully</Alert>}
+        {user?.email && <Alert severity="success" className='w-50 mx-auto'>User Created successfully</Alert>}
         </div>
         </div>
     );

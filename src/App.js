@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import Header from './Component/Header/Header';
 import Footer from './Component/Footer/Footer'
-import Home from './Component/Home/Home';
 import AboutUs from './Component/AboutUs/AboutUs'
 import Gallery from './Component/Gallery/Gallery'
 import Faq from './Component/Faq/Faq'
@@ -16,6 +15,7 @@ import Blogs from './Component/Blogs/Blogs';
 import Login from './Component/LogIn/Login/Login';
 import Registration from './Component/LogIn/Registration/Registration';
 import AuthProvider from './Contex/AuthProvider';
+import Home from './Component/Home/Home/Home';
 
 function App() {
   return (

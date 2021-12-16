@@ -55,7 +55,7 @@ const Login = () => {
                 <Button onClick={handleGoogleSignIn} className='mt-4' variant="primary" size="lg">Google Sign In</Button>
             </Form>}
             {isLoading && <Spinner animation="grow" variant="danger" />}
-        {user?.email && <Alert severity="success">Login successfully</Alert>}
+        {user?.email && <Alert severity="success" className='w-50 mx-auto'>Login successfully</Alert>}
         </div>
     );
 };

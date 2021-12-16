@@ -22,7 +22,7 @@ const ContactUS = () => {
             });
     };
     return (
-        <Container className="mt-5 py-5 text-white text-start bg-info" id="contactForm">
+        <Container className="mt-5 py-5 text-white text-start bg-info w-50" id="contactForm">
             <div className="pt-2 pb-4">
                 <h2 className="heading text-center">Contact</h2>
             </div>
@@ -61,7 +61,7 @@ const ContactUS = () => {
                     />
                 </Form.Group>
                 <div>
-                    <Button type="submit" className="px-5 bg-dark text-light border-0">Send</Button>
+                    <Button type="submit" className="px-5 bg-dark text-light border-0 text-center">Send</Button>
                 </div>
             </Form>
         </Container>
