@@ -16,6 +16,7 @@ import Login from './Component/LogIn/Login/Login';
 import Registration from './Component/LogIn/Registration/Registration';
 import AuthProvider from './Contex/AuthProvider';
 import Home from './Component/Home/Home/Home';
+import Courses from './Component/Courses/Courses';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/courses" element={<Courses />} />
           <Route path="/instructor" element={<Instractors />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/login" element={<Login />} />

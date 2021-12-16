@@ -24,7 +24,7 @@ const ContactUS = () => {
     return (
         <Container className="mt-5 py-5 text-white text-start bg-info w-50" id="contactForm">
             <div className="pt-2 pb-4">
-                <h2 className="heading text-center">Contact</h2>
+                <h1 className="text-center">Contact</h1>
             </div>
             <Form name="contact-form" onSubmit={sendEmail} className="mb-5" ref={form}>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
