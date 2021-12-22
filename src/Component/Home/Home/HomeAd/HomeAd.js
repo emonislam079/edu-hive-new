@@ -1,59 +1,51 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import './HomeAd.css';
 
 const HomeAd = () => {
     return (
-        <div
-          style={{
-            backgroundColor: "rgb(237, 244, 252)",
-            margin: "20px 5px",
-          }}
-        >
-          <Container>
-            <Row className="homead-container">
-              <Col xs={12} md={7}>
-                <div className="home-container-text">
-                  <h4>
-                    We Have Experienced Professionals  We Do Our Best To Achieve
-                    Your Goal. Your Happiness Is Our First Priority.
-                  </h4>
-                  <p>
-                    university, institution of higher education, usually comprising
-                    a college of liberal arts and sciences.university, institution
-                    of higher education, usually comprising a college of liberal
-                    arts and sciences.
-                  </p>
-                  <ul className="text-start">
-                    <li>
-                      <h5>Best Quality Courses</h5>
-                      <p>
-                        Quality management issues are responsible for an
-                        unfathomable amount of lost very revenue.Too many companies
-                        invest in software, consultants
-                      </p>
-                    </li>
-                    <li>
-                      <h5>Best Teachers</h5>
-                      <p>
-                        Too many companies invest in software, consultants, or
-                        systems — but fail to invest their resource, their
-                        people.Quality management issues are
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-              </Col>
-              <Col xs={12} md={5}>
-                <img
-                  style={{ width: "100%", height: "auto", borderRadius: "5px" }}
-                  src="https://i.ibb.co/q7XmftL/e2.jpg"
-                  alt=""
-                />
-              </Col>
-            </Row>
-          </Container>
-        </div>
+      <Container className="mt-5">
+      <Row>
+        <Col xs={12} md={5}>
+          <div>
+            <img
+              style={{ width: "100%", borderRadius: "10px" }}
+              src="https://i.ibb.co/hZgdTrK/Laughing-mexican-student-with-tablet-computer-and-friends-in-background-in-front-of-university-build.jpg"
+              alt=""
+            />
+          </div>
+        </Col>
+        <Col xs={12} md={7}>
+          <div className="mt-5">
+            <h2>
+              We have Experienced Professionals  We Do Our Best to Achieve Your
+              Goal. Your Happiness Is Our First Priority
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
+              nobis ad vero aliquam architecto? Facilis error expedita
+              perspiciatis consequatur officia commodi, fugiat fuga laudantium
+              aliquam nihil. Quo similique necessitatibus voluptates.
+            </p>
+            <div>
+              <Row>
+                <Col xs={4} md={4}>
+                  <h2 style={{ color: "coral" }}>1000+</h2>
+                  <h6>Happy Students</h6>
+                </Col>
+                <Col xs={4} md={4}>
+                  <h2 style={{ color: "blueViolet" }}>55+</h2>
+                  <h6>Teachers</h6>
+                </Col>
+                <Col xs={4} md={4}>
+                  <h2 style={{ color: "blue" }}>15+</h2>
+                  <h6>Courses</h6>
+                </Col>
+              </Row>
+            </div>
+          </div>
+        </Col>
+      </Row>
+    </Container>
       );
     };
     
