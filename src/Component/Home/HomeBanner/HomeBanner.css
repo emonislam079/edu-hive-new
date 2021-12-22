@@ -16,3 +16,54 @@
   justify-content: center;
   color: aliceblue;
 }
+.home-banner h3 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.home-banner h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 25px;
+  padding-right: 25px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 20px;
+  color: black;
+}
+
+.button-29:hover {
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  transform: translateY(2px);
+}
+.font {
+  font-size: 55px;
+  color: coral;
+  font-weight: 700;
+}

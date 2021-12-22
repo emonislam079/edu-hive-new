@@ -12,7 +12,7 @@ const Instractor = (props) => {
         <Card.Img  variant="top" src={img}  />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
-          <Card.Text>
+          <Card.Text className='text-center'>
            {Position}
           </Card.Text>
         </Card.Body>
