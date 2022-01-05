@@ -1,9 +1,5 @@
 import './App.css';
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import Header from './Component/Header/Header';
 import Footer from './Component/Footer/Footer'
 import AboutUs from './Component/AboutUs/AboutUs'
@@ -17,30 +13,64 @@ import Registration from './Component/LogIn/Registration/Registration';
 import AuthProvider from './Contex/AuthProvider';
 import Home from './Component/Home/Home/Home';
 import Courses from './Component/Courses/Courses';
+import NotFound from './Component/NotFound/NotFound';
+import Event from './Component/Event/Event';
 
 function App() {
   return (
     <div className="App">
       <AuthProvider>
-      <BrowserRouter>
-        <Header></Header>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/contact" element={<ContactUs />} />
-          <Route path="/courses" element={<Courses />} />
-          <Route path="/instructor" element={<Instractors />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/registration" element={<Registration />} />
-          
-        </Routes>
-        <Footer></Footer>
-      </BrowserRouter>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/about">
+              <AboutUs></AboutUs>
+            </Route>
+            <Route path="/gallery">
+              <Gallery></Gallery>
+            </Route>
+            <Route path="/faq">
+              <Faq></Faq>
+            </Route>
+            <Route path="/contact">
+              <ContactUs></ContactUs>
+            </Route>
+            <Route path="/event">
+              <Event></Event>
+            </Route>
+            <Route path="/courses">
+              <Courses></Courses>
+            </Route>
+            <Route path="/instructor">
+              <Instractors></Instractors>
+            </Route>
+            <Route path="/blogs">
+              <Blogs></Blogs>
+            </Route>
+
+            
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/registration">
+              <Registration></Registration>
+            </Route>
+
+            <Route path="/*">
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
       </AuthProvider>
+
     </div>
   );
 }
