@@ -28,8 +28,6 @@ const Header = () => {
         <NavDropdown.Item as={HashLink} to="/gallery">Gallery</NavDropdown.Item>
         <NavDropdown.Item as={HashLink} to="/contact">Contact Us</NavDropdown.Item>
         <NavDropdown.Item as={HashLink} to="/faq">Faq</NavDropdown.Item>
-        <NavDropdown.Item as={HashLink} to="/about">Something</NavDropdown.Item>
-        <NavDropdown.Item as={HashLink} to="/about">Something</NavDropdown.Item>
       </NavDropdown>
       <Nav.Link as={HashLink} to="/courses">Courses</Nav.Link>
       <Nav.Link as={HashLink} to="/instructor">Instructor</Nav.Link>

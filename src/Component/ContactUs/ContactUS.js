@@ -22,7 +22,7 @@ const ContactUS = () => {
             });
     };
     return (
-        <Container className="mt-5 py-5 text-white text-start bg-info w-50" id="contactForm">
+        <Container className="mt-5 py-5 text-white text-start bg-dark w-50" id="contactForm">
             <div className="pt-2 pb-4">
                 <h1 className="text-center">Contact</h1>
             </div>

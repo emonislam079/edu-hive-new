@@ -1,47 +1,104 @@
 import React from 'react';
-import './Footer.css'
+import "./Footer.css"
+
 const Footer = () => {
     return (
         <div>
-            <div>
-           <div className="footer-container text-dark">
-  <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-    <div className="col text-center">
-        <h3>Toys Zone</h3>
-        <br/>
-        <p> We offer a wide selection of children’s Toys at the best prices.With fresh toy, quality materials and fun designs, it’s the affordable kids toys brand that you can trust. You will find everything you need.</p>
-    </div>
-    <div className="col link">
-        <h3>Usefull Links</h3>
-        <br />
-        <a href="/about">About Us</a>
-        <br />
-        <a href="/home">Contact Us</a>
-        <br />
-        <a href="/home">Place Order</a>
-        <br />
-        
-    </div>
-    <div className="col link">
-        <h3>We Accepts</h3>
-        <br />
-        <img src="https://www.braintreepayments.com/images/features/payment-methods/payment-methods.png" width="80%" alt="" />
-    </div>
-    <div className="col contact text-center">
-        <h3 >Contact Details</h3>
-        <br />
-        <p>+01949400955</p>
-        
-        <br />
-        <p>info@example.com</p>
-        <br />
-        <p>1362 Shantidhara Road</p>
-        <p>Dhaka, bangladesh</p>
-    </div>
-  </div>
-</div> 
-        </div>
-        </div>
+            <footer>
+                <div className="container text-white">
+                    <div className="row">
+                    <div className="col-md-3 footer-column ">
+                            <h1>Edu Hive</h1>
+                            <p className='mt-5'>This is a education based  web site. Here you can see out instructor, our courses, latest Blogs, event etc.</p>
+                        </div>
+                        <div className="col-md-3 footer-column">
+                            <ul className="nav d-flex flex-column justify-content-start">
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home">Products</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home">Services</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/prices">Prices</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home">Plans & Prices</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home"> Frequently asked questions</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col-md-3 footer-column">
+                            <ul className="nav flex-column">
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home">Company</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home">About us</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home">Job postings</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home">News and articles</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col-md-3 footer-column ">
+                            <ul className="nav flex-column">
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home">Contact & Support</a>
+                                </li>
+                                <li className="nav-item">
+                                    <span className="nav-link text-white"><i className="fas fa-phone"></i> +00 00 00 00 00</span>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home"><i className="fas fa-comments"></i> Live chat</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home"><i className="fas fa-envelope"></i> Contact us</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a className="nav-link text-white" href="/home"><i className="fas fa-star"></i> Give feedback</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+                    <div className="text-center"><i className="fas fa-ellipsis-h"></i></div>
+
+                    <div className="row text-center">
+                        <div className="col-md-4 box">
+                            <span className="copyright quick-links">Copyright &copy; EduHive</span>
+                        </div>
+                        <div className="col-md-4 box">
+                            <ul className="list-inline social-buttons">
+                                <li className="list-inline-item">
+                                    <a href="/home">
+                                        <i className="fab fa-twitter  text-white"></i>
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a href="/home">
+                                        <i className="fab fa-facebook-f  text-white"></i>
+                                    </a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a href="/home">
+                                        <i className="fab fa-linkedin-in  text-white"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+        </div >
     );
 };
 
