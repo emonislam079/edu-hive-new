@@ -14,19 +14,16 @@ const Footer = () => {
                         <div className="col-md-3 footer-column">
                             <ul className="nav d-flex flex-column justify-content-start">
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="/home">Products</a>
+                                    <a className="nav-link text-white" href="/courses">Services</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="/home">Services</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link text-white" href="/prices">Prices</a>
+                                    <a className="nav-link text-white" href="/home">Prices</a>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link text-white" href="/home">Plans & Prices</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="/home"> Frequently asked questions</a>
+                                    <a className="nav-link text-white" href="/faq"> Frequently asked questions</a>
                                 </li>
                             </ul>
                         </div>
@@ -49,7 +46,7 @@ const Footer = () => {
                         <div className="col-md-3 footer-column ">
                             <ul className="nav flex-column">
                                 <li className="nav-item">
-                                    <a className="nav-link text-white" href="/home">Contact & Support</a>
+                                    <a className="nav-link text-white" href="/contact">Contact & Support</a>
                                 </li>
                                 <li className="nav-item">
                                     <span className="nav-link text-white"><i className="fas fa-phone"></i> +00 00 00 00 00</span>
