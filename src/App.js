@@ -15,6 +15,7 @@ import Home from './Component/Home/Home/Home';
 import Courses from './Component/Courses/Courses';
 import NotFound from './Component/NotFound/NotFound';
 import Event from './Component/Event/Event';
+import Purches from './Component/Purches/Purches';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
             </Route>
             <Route path="/about">
               <AboutUs></AboutUs>
+            </Route>
+            <Route path="/purchase">
+              <Purches></Purches>
             </Route>
             <Route path="/gallery">
               <Gallery></Gallery>

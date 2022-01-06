@@ -3,6 +3,7 @@ import { Button, Card, Col } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Course.css'
+import { Link } from 'react-router-dom';
 
 const Course = (props) => {
     
@@ -26,7 +27,7 @@ const Course = (props) => {
           <Card.Text>
             Duration: {duration}
           </Card.Text>
-          <Button>Buy Now {price}$</Button>
+          <Link to='/purchase'> <Button>Buy Now {price}$</Button></Link>
         </Card.Body>
       </Card>
     </Col>
